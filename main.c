@@ -54,4 +54,6 @@ int main(){
     j = i - 1;
     proximo_ponto = ini_ponto;  
     }
+    free(proximo_ponto->proximo);
+    free(ini_ponto);
 }
